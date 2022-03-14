@@ -10,6 +10,7 @@
   padding: 0;
   border: 0;
   box-sizing: border-box;
+  color: #1a1a1a;
 }
 
 .service__article_job {
@@ -28,6 +29,7 @@ section {
  display: block;
  width: 100%;
  height: 100vh;
+ /* background-color: rgba(241,241,246,.95); */
 }
 
 section article {
@@ -90,12 +92,12 @@ button {
 }
 
 #section__contact_references {
-    color: #fff;
+    color: #1a1a1a;
 }
 
 #section___main,
 #section__contact_references {
-    background-color: #1a1a1a;
+    background-color: #fff; /* #1a1a1a; */
 }
 
 #section___main {
@@ -115,7 +117,7 @@ button {
 #section___main__presentation {
     margin-top: 10%;
     margin-bottom: 25%;
-    color: #fff;
+    color: #ccc;
 }
 
 #section___main__presentation div p {
@@ -141,7 +143,9 @@ button {
 }
 
 #section__main__navbar ul li a.nav-link {
-    color: #fff;
+   /* color: #fff; */
+   /* color: #1a1a1a;*/
+    color: #484848;
 }
 
 #section__about_me {
@@ -149,33 +153,23 @@ button {
 }
 
 
-#section__about_me #img__about_me_first{
+#section__about_me #img__about_me{
     display: block;
-    width: 200px;
-    height: 350px;
+    width: 100%;
+    height: 600px;
     /* border: 2px solid brown; */
-    background-image: url("../media/about/darya_one.webp");
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
+    background-image: url("../img/about.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*
-    background-image: url("../media/about/darya_one.webp");
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 135%;
-    margin-left: 0;
-    padding-left: 0;
-    */
 }
 
+/*
 #section__about_me #img__about_me_second {
     display: block;
     width: 200px;
     height: 350px; /* 350px */
-    /* border: 2px solid brown; */
+    /* border: 2px solid brown; *//*
     background-image: url("../media/about/darya_two.webp");
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
     background-size: cover;
@@ -193,8 +187,10 @@ button {
     margin-top: 25%;
     margin-left: 0;
     padding-left: 0;
-   */
+   *//*
 }
+*/
+
 
 #section__about_me article div img:first-child{
    margin-right: 10px;
