@@ -6,10 +6,17 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #1a1a1a;
+}
+
+
+body {
+    /* background-color: #f5f1f0; */
+    background-color: #FBFBFB!important;
 }
 
 .service__article_job {
@@ -23,11 +30,12 @@
 
 
 section {
- font-family: 'Open Sans',Arial,sans-serif;
- /* border: 1px solid #ccc; */
- display: block;
- width: 100%;
- height: 100vh;
+    font-family: 'Open Sans',Arial,sans-serif;
+    /* border: 1px solid #ccc; */
+    display: block;
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgba(241,241,246,.95); */
 }
 
 section article {
@@ -58,7 +66,7 @@ button {
 }
 
 #section__help_resolve {
-   height: 400px;
+    height: 400px;
 }
 
 
@@ -79,23 +87,23 @@ button {
 
 .section__main__social__links li a i,
 .section__main__social__links__contact a i{
-   /* border: 2px solid #fff; */
+    /* border: 2px solid #fff; */
     font-size: 18px;
 }
 
-#section__about_me,
+/*#section__about_me,*/
 #section__portfolio,
 #section__services {
     background-color: #f5f1f0;
 }
 
 #section__contact_references {
-    color: #fff;
+    color: #1a1a1a;
 }
 
 #section___main,
 #section__contact_references {
-    background-color: #1a1a1a;
+    /* background-color: #fff; /* #1a1a1a; */
 }
 
 #section___main {
@@ -115,7 +123,7 @@ button {
 #section___main__presentation {
     margin-top: 10%;
     margin-bottom: 25%;
-    color: #fff;
+    color: #ccc;
 }
 
 #section___main__presentation div p {
@@ -141,63 +149,60 @@ button {
 }
 
 #section__main__navbar ul li a.nav-link {
-    color: #fff;
+    /* color: #fff; */
+    /* color: #1a1a1a;*/
+    color: #484848;
 }
 
+/*
 #section__about_me {
     background-color: #f5f1f0;
 }
+*/
 
 
-#section__about_me #img__about_me_first{
+
+#section__about_me #img__about_me{
     display: block;
-    width: 200px;
-    height: 350px;
+    width: 100%;
+    height: 600px;
     /* border: 2px solid brown; */
-    background-image: url("../media/about/darya_one.webp");
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
+    background-image: url("../img/about.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*
-    background-image: url("../media/about/darya_one.webp");
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 135%;
-    margin-left: 0;
-    padding-left: 0;
-    */
 }
 
+/*
 #section__about_me #img__about_me_second {
     display: block;
     width: 200px;
     height: 350px; /* 350px */
-    /* border: 2px solid brown; */
-    background-image: url("../media/about/darya_two.webp");
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-left: 3%;
-    /*
-    display: block;
-    background-image: url("../media/about/darya_two.webp");
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding-bottom: 135%;
-    margin-top: 25%;
-    margin-left: 0;
-    padding-left: 0;
-   */
+/* border: 2px solid brown; *//*
+background-image: url("../media/about/darya_two.webp");
+box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin-left: 3%;
+/*
+display: block;
+background-image: url("../media/about/darya_two.webp");
+box-shadow: rgba(0, 0, 0, 0) 0px 0px 15px 0px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding-bottom: 135%;
+margin-top: 25%;
+margin-left: 0;
+padding-left: 0;
+*//*
 }
+*/
+
 
 #section__about_me article div img:first-child{
-   margin-right: 10px;
+    margin-right: 10px;
 }
 
 #section__about_me article {
@@ -286,10 +291,10 @@ button {
 }
 
 #section__contact_me {
-  opacity: 0.4;
-  height: 600px;
-  background-attachment: scroll;
-  background-image: url("../media/bg/contact_me.webp");
+    opacity: 0.4;
+    height: 600px;
+    background-attachment: scroll;
+    background-image: url("../media/bg/contact_me.webp");
 }
 
 #section__blog {
@@ -299,5 +304,4 @@ button {
 #section__contact_references {
     height: 500px;
 }
-
 
